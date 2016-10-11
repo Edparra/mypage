@@ -11,7 +11,11 @@ nav .brand-logo {
 .git{
   height: 40%;
   width: 40%;
-  margin: 20px;
+  margin: 25px;
+}
+.proj{
+  height: 300px;
+  width: 100%;
 }
 .contact{
    margin-left: 20%;
@@ -101,7 +105,10 @@ p {
 .icon-block .material-icons {
   font-size: inherit;
 }
-
+footer{
+  margin-bottom: 22px;
+  font-size: 70%;
+}
 footer.page-footer {
   margin: 0;
 }
