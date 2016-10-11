@@ -1,0 +1,107 @@
+
+
+
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: green;
+}
+.git{
+  height: 40%;
+  width: 40%;
+  margin: 20px;
+}
+.contact{
+   margin-left: 20%;
+   margin-top: 70px;
+   margin-bottom: 70px;
+
+}
+.simon{
+  margin-left: 20%;
+}
+.simonicon{
+  margin-left: 15%;
+}
+.propics {
+  height:40%;
+  width:40%;
+}
+
+.nav_links {
+  margin: 0;
+}
+
+.nav_links li {
+  display: inline-block;
+}
+
+.nav_links li a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: white;
+  padding: 0 50px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav_links li a:hover {
+  color: #273d55;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: center;
+}
+
+.mepic{
+  height:25%;
+  width:25%;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
