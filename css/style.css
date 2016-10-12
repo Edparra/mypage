@@ -17,6 +17,14 @@ nav .brand-logo {
   height: 300px;
   width: 100%;
 }
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
 .contact{
    margin-left: 20%;
    margin-top: 70px;

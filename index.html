@@ -34,6 +34,27 @@
         });
     });
 });
+
+$(document).ready(function() {
+var stickyNavTop = $('.nav').offset().top;
+
+var stickyNav = function(){
+var scrollTop = $(window).scrollTop();
+
+if (scrollTop > stickyNavTop) {
+    $('.nav').addClass('sticky');
+} else {
+    $('.nav').removeClass('sticky');
+}
+};
+
+stickyNav();
+
+$(window).scroll(function() {
+    stickyNav();
+});
+});
+
 </script>
 
 
@@ -62,7 +83,7 @@
     </div>
   </div>
 
-  <nav class="blue lighten-1" role="navigation">
+  <nav class="nav blue lighten-1" role="navigation">
     <div class="nav-wrapper container">
     <ul class='nav_links'>
       <li class='navigation'><a class='scroll' href="#aboutlink">About</a></li>
